@@ -1,0 +1,117 @@
+body {
+    background-color: blue;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+    color: black;
+}
+
+.page-layout {
+    display: flex;
+    flex-direction: column;
+    width: 650px; 
+    height: 900px;
+    background-color: green; 
+    padding: 40px;
+
+}
+
+.grid {
+    display: grid;
+
+}
+.box {
+    width: 100%;
+    height: 100%;
+}
+
+.ivan-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end; 
+    width: 100%;
+    height: 100px;
+    padding-top: 20px;
+    
+    font-size: 32px;
+    font-weight: 900;
+    line-height: 1.1;
+    text-transform: uppercase;
+    color: black;
+}
+
+
+.page-layout {
+    display: flex;
+    flex-direction: column;
+    width: 650px; 
+    height: 900px; 
+    background-color: 
+    padding: 40px; 
+  
+}
+
+.main {
+    flex: 1; 
+    width: 100%;
+    background-image: url('miming2.jpg');
+    background-size: ;
+   background-position-x: 1%;
+background-position-y: 1%;
+    background-repeat: no-repeat;
+
+.main2 {
+    flex: 2; 
+    width: 100%;
+    background-image: url('pexels-ahmetyuksek-35473564.jpg');
+    background-size: 120px 120px;
+   background-position:center;
+    background-repeat: no-repeat;
+
+
+.big-image-left {
+    grid-column: 1;
+    grid-row: 1;
+    height: 60%; /* Only blocks text from the top part of the main face */
+}
+
+
+big-image-right {
+    grid-column: 2;
+    grid-row: 1;
+    width: 80%; /* Only blocks text from the main large face */
+}
+
+
+.voices-inner-grid {
+    display: grid;
+    grid-template-rows: 40% 1fr; 
+    gap: 0;
+    width: 100%;
+    height: 100%;
+
+.title-area {
+    grid-row: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start; 
+    padding-left: 20px;
+}
+
+.main-title {
+    font-size:50px; 
+    font-weight: 300;
+    color: black;
+    line-height: 0.85;
+    text-transform: uppercase;
+}
+
+.byline {
+    font-size: 20px;
+    font-weight: 600;
+    color: black;
+    text-transform: uppercase;
+    margin-top: 15px;
+}
